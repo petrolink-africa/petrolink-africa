@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetroLink Africa</title>
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo-fuel.png" alt="PetroLink Logo" />
+    <h1>Welcome to PetroLink Africa</h1>
+    <p>Automated petroleum trading, redefined.</p>
+  </header>
+  <section>
+    <img src="assets/slide-1.jpg" alt="Slide 1" />
+    <img src="assets/slide-2.jpg" alt="Slide 2" />
+  </section>
+  <footer>
+    <p>Contact us via WhatsApp</p>
+    <img src="assets/whatsapp-qr.png" alt="WhatsApp QR" />
+  </footer>
+</body>
+</html>
