@@ -1,297 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>PetroLink Africa – Investor Launch Portal</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-    header, footer { background-color: #003366; color: white; padding: 20px; text-align: center; }
-    section { padding: 30px; }
-    h2, h3 { color: #003366; }
-    .slide-container { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
-    .slide { flex: 1; min-width: 280px; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
-    .slide img { width: 100%; border-radius: 6px; margin-top: 10px; }
-    .qr { margin-top: 20px; }
-    .whatsapp-button { display: inline-block; background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; }
-    a { color: #003366; }
-  </style>
-</head>
-<body>
+<h1>PetroLink Africa – Investor Launch Portal</h1>
+<p><strong>Empowering automation-first petroleum trade across Africa</strong><br>
+<em>Last Updated: August 9, 2025</em></p>
 
-<header>
-  <img src="assets/PetroLink.png" alt="PetroLink Logo" width="60">
-  <h1>PetroLink Africa</h1>
-  <p>Automated B2B Petroleum Trading Platform</p>
-</header>
+<p>Welcome to PetroLink Africa’s investor-ready launch portal. This page provides instant access to all onboarding, deployment, and contributor assets. Every section is modular, multilingual, and automation-ready.</p>
 
-<section id=<img src="assets/PetroLink.png">
-  <h2>🚀 Launch Assets</h2>
+<hr>
 
-  <!-- QR Code -->
-  <div class="qr">
-    <h3>📄 Access SOP</h3>
-<p>Scan the QR code below to download the PetroLink SOP PDF:</p>
-<img src="assets/sop-qr-code.png" alt="PetroLink SOP QR Code" width="200">
-<p><a href="https://drive.google.com/file/d/1p7tB2K_7zEMzQ7nLdLkZt3kfXw8h2eUA/view?usp=sharing" target="_blank">Or click here to view the SOP PDF</a></p>
-  </div>
-<!-- 🖼️ Contributor QR Flyer -->
+<!-- 🌐 Language Switcher -->
+<script>
+function showLanguage(lang) {
+  document.querySelectorAll('.lang-block').forEach(el => {
+    el.style.display = el.classList.contains(lang) ? 'block' : 'none';
+  });
+}
+</script>
+
+<select onchange="showLanguage(this.value)">
+  <option value="english">🇬🇧 English</option>
+  <option value="french">🇫🇷 French</option>
+  <option value="swahili">🇸🇿 Swahili</option>
+  <option value="arabic">🇸🇦 Arabic</option>
+  <option value="portuguese">🇵🇹 Portuguese</option>
+  <option value="hausa">🇳🇬 Hausa</option>
+</select>
+
+<!-- 🌍 Multilingual Blocks -->
+<div class="lang-block english">
+  <h3>📄 SOP Access (English)</h3>
+  <p><a href="link-to-sop">📘 View SOP PDF</a></p>
+</div>
+
+<div class="lang-block french" style="display:none">
+  <h3>📄 Accès au Guide SOP (Français)</h3>
+  <p><a href="link-to-sop-fr">📘 Voir le PDF SOP</a></p>
+</div>
+
+<!-- Repeat for other languages -->
+
+<hr>
+
 <details>
-<summary><strong>🖼️ Contributor QR Flyer</strong></summary>
-<p>Scan the QR code to join PetroLink Africa as a verified contributor.</p>
-<img src="https://drive.google.com/uc?export=view&id=13-XEqDT03vB8CIFqsPbQwClhzQOtPmNc" alt="PetroLink Contributor QR Flyer" width="100%">
-</details>
-
-  <!-- WhatsApp Button -->
-  <div style="margin-top: 30px;">
-    <h3>💬 Contact via WhatsApp</h3>
-    <p>Need help or want to request a demo? Chat with us instantly:</p>
-    <a href="https://wa.me/233547629484?text=Hi%20PetroLink%20Africa%2C%20I'm%20interested%20in%20your%20platform." target="_blank" class="whatsapp-button">
-      📱 Message Us on WhatsApp
-    </a>
-  </div>
-</section>
-
-<section id="platform-preview">
-  <h2>📊 Platform Preview</h2>
-  <div class="slide-container">
-    <div class="slide">
-      <h3>Platform Overview<img src="assets/investor_banner.png"</h3>
-      <ul>
-        <li>Fully automated RFQ-to-order pipeline</li>
-        <li>WhatsApp-powered buyer onboarding</li>
-        <li>Zero manual intervention</li>
-        <li>Scalable across African markets</li>
-      </ul>
-      <img src="assets/investor_banner.png" alt="Platform Overview">
-    </div>
-    <div class="slide"><img src="assets/investor_deck-preview.png"
-      <h3>Automation Flow Diagram</h3>
-      <ul>
-        <li>RFQ via WhatsApp → Zapier → Google Sheets</li>
-        <li>Auto-quote → Buyer confirms → Supplier notified</li>
-        <li>Invoice auto-generated → Investor notified</li>
-        <li>Real-time dashboard logging</li>
-      </ul>
-      <img src="assets/investor_deck-preview.png" alt="Automation Flow">
-    <img src="assets/thumb.png"</div>
-    <!-- 🌍 Regional SOP Access Panel -->
-<details>
-<summary><strong>🌍 Regional SOP Access Panel</strong></summary>
+<summary>📊 Platform Overview</summary>
 <ul>
-  <li>🇬🇭 <a href="#sop">English SOP</a></li>
-  <li>🇸🇳 <a href="#sop-fr">French SOP</a></li>
-  <li>🇰🇪 <a href="#sop-sw">Swahili SOP</a></li>
-  <li>🇲🇦 <a href="#sop-ar">Arabic SOP</a></li>
-  <li>🇲🇿 <a href="#sop-pt">Portuguese SOP</a></li>
-  <li>🇳🇬 <a href="#sop-ha">Hausa SOP</a></li>
+  <li>Fully automated RFQ-to-order pipeline</li>
+  <li>WhatsApp-powered buyer onboarding</li>
+  <li>Zero manual intervention</li>
+  <li>Scalable across African markets</li>
 </ul>
 </details>
 
-<!-- 📦 Deployment Checklist -->
 <details>
-<summary><strong>📦 Deployment Checklist</strong></summary>
+<summary>📦 Deployment Checklist</summary>
 <ul>
-  <li>✅ QR flyers printed and distributed</li>
-  <li>✅ WhatsApp templates localized</li>
-  <li>✅ Drive folders linked to GitHub blocks</li>
-  <li>✅ Contributor form activated</li>
-  <li>✅ Badge tracker embedded</li>
+  <li>Confirm SOP access</li>
+  <li>Scan QR flyer</li>
+  <li>Join WhatsApp support</li>
+  <li>Review automation flow</li>
+  <li>Activate dashboard</li>
+  <li>Track contributor badges</li>
 </ul>
 </details>
 
-<!-- 🤝 Partner Directory -->
 <details>
-<summary><strong>🤝 Partner Directory</strong></summary>
+<summary>🧠 Contributor Credits</summary>
 <ul>
-  <li>🔧 Automation: Zapier, Google Sheets</li>
-  <li>📦 Logistics: DHL, Sendbox</li>
-  <li>💳 Payments: DCOWALLET, Flutterwave</li>
-  <li>📲 Onboarding: WhatsApp, QR codes</li>
+  <li><a href="https://www.linkedin.com/in/petrolink-africa-981790379/">Jones</a> – Founder & Automation Architect</li>
+  <li><a href="https://github.com/kwame-automation">Kwame A.</a> – SOP Packaging & QR Design</li>
+  <li><a href="https://github.com/fatima-translations">Fatima S.</a> – French & Arabic Translation</li>
+  <li><a href="https://github.com/elvis-devops">Elvis T.</a> – GitHub Deployment & Markdown Structuring</li>
+  <li><a href="https://github.com/amina-onboarding">Amina K.</a> – WhatsApp Onboarding Templates</li>
+  <li><a href="https://petrolink-africa.github.io/petrolink-africa/#contact">You?</a> – Apply to Join the Contributor Network</li>
 </ul>
 </details>
-<!-- 🖼️ Contributor QR Flyer -->
-</details>
 
-<!-- 🧠 Contributor Credits -->
 <details>
-<summary><strong>🧠 Contributor Credits</strong></summary>
+<summary>📈 Deployment Dashboard</summary>
 <ul>
-  <li><strong>Jones (Founder)</strong> – Platform architect, onboarding systems, multilingual SOPs</li>
-  <li><strong>Contributors</strong> – Listed dynamically via badge tracker</li>
-</ul>
-<p>Want to be listed here? <a href="https://docs.google.com/forms/d/e/1FAIpQLScFmscWK9bJPo78CCxmKVvyPrYXudUzU6LbIONgR_qor2P9Gg/viewform?usp=header" target="_blank">Submit your contribution</a></p>
-</details>
-
-<!-- 🎖️ Contributor Badge Tracker Sheet -->
-<details>
-<summary><strong>🎖️ Contributor Badge Tracker Sheet</strong></summary>
-<p>Track contributor badges, milestones, and multilingual impact.</p>
-<iframe src="https://docs.google.com/spreadsheets/d/1nnXXE6K3BSqK4rPLK7HL5r1ZOyudSLNbGXRbDSBed10/edit?usp=sharing" width="100%" height="600" frameborder="0">Loading…</iframe>
-</details>
-
-<!-- 🏅 Badge Legend -->
-<details>
-<summary><strong>🏅 Badge Legend</strong></summary>
-<ul>
-  <li>⏳ <strong>Pending</strong> – Form submitted, awaiting review</li>
-  <li>✅ <strong>Verified</strong> – Contribution confirmed</li>
-  <li>🌟 <strong>Featured</strong> – Recognized for milestone impact</li>
+  <li><a href="link-to-dashboard">📊 View Dashboard</a></li>
+  <li><a href="link-to-trigger-map">🔁 Trigger Map</a></li>
 </ul>
 </details>
 
-<!-- 🌟 Featured Contributors -->
-<details>
-<summary><strong>🌟 Featured Contributors</strong></summary>
-<ul>
-  <li><strong>Jane Doe</strong> – First deployment in Kenya, multilingual support (Swahili + English)</li>
-  <li><strong>Ali Musa</strong> – Verified contributor, Arabic onboarding lead</li>
-</ul>
-<p>Want to be featured? <a href="https://docs.google.com/forms/d/e/1FAIpQLScFmscWK9bJPo78CCxmKVvyPrYXudUzU6LbIONgR_qor2P9Gg/viewform?usp=header" target="_blank">Submit your contribution</a></p>
-</details>
-      
-<!-- 🧠 Knowledge Base -->
-<details>
-<summary><strong>🧠 Knowledge Base</strong></summary>
-<ul>
-  <li><a href="#faq">FAQ</a></li>
-  <li><a href="#onboarding">Onboarding Guide</a></li>
-  <li><a href="#support">Support Channels</a></li>
-  <li><a href="#investor">Investor Overview</a></li>
-</ul>
-</details>
+<hr>
 
-<!-- 🛠️ Contributor Toolkit -->
-<details>
-<summary><strong>🛠️ Contributor Toolkit</strong></summary>
-<ul>
-  <li><a href="#form">Contributor Form</a></li>
-  <li><a href="#badges">Badge Tracker</a></li>
-  <li><a href="#credits">Contributor Credits</a></li>
-</ul>
-</details>
-
-<!-- 📈 Deployment Dashboard -->
-<details>
-<summary><strong>📈 Deployment Dashboard</strong></summary>
-<ul>
-  <li><a href="#live-deals">Live Deals</a></li>
-  <li><a href="#regions">Active Regions</a></li>
-  <li><a href="#logs">Audit Logs</a></li>
-</ul>
-</details>
-<!-- 📊 Live Deployment Dashboard Embed -->
-</ul>
-</details> <!-- 📈 Deployment Dashboard ends here -->
-
-<iframe src="https://airtable.com/embed/shrXyZkYwZxgqJvXzZkYd9" width="100%" height="800" frameborder="0">Loading…</iframe>
-<!-- 🔁 Automation Flow & Trigger Map -->
-<details>
-<summary><strong>🔁 Automation Flow & Trigger Map</strong></summary>
-
-<p><strong>Step-by-step automation:</strong></p>
-<ol>
-  <li>📲 <strong>RFQ via WhatsApp</strong> → <a href="https://wa.me/233547629484?text=Hi+PetroLink+Africa">Trigger</a></li>
-  <li>⚙️ <strong>Zapier logs RFQ</strong> → Google Sheet</li>
-  <li>📈 <strong>Auto-quote generated</strong> → Sent via WhatsApp</li>
-  <li>✅ <strong>Buyer confirms</strong> → Zapier triggers invoice</li>
-  <li>🧾 <strong>Invoice stored</strong> → Drive folder</li>
-  <li>📣 <strong>Investor notified</strong> → WhatsApp/email alert</li>
-  <li>📊 <strong>Deal logged</strong> → Deployment Dashboard</li>
-</ol>
-
-<p><strong>Assets used:</strong></p>
-<!-- 📝 Contributor Form Embed -->
-<!-- 📝 Contributor Submission Form -->
-<details>
-<summary><strong>📝 Contributor Submission Form</strong></summary>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFmscWK9bJPo78CCxmKVvyPrYXudUzU6LbIONgR_qor2P9Gg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</details>
-<ul>
-  <li>📁 SOP PDFs (6 languages)</li>
-  <li>📦 QR Flyers & WhatsApp Templates</li>
-  <li>🧠 Contributor Form & Badge Tracker</li>
-  <li>🌐 GitHub Pages Portal</li>
-</ul>
-
-</details>
-
-<!-- 📣 Launch Announcements -->
-<details>
-<summary><strong>📣 Launch Announcements</strong></summary>
-<ul> 
-  <li><a href="#announcement">Multilingual Launch Post</a></li>
-  <li><a href="#invite">Contributor Invite Templates</a></li>
-  <li><a href="#press">Press Kit</a></li>
-</ul>
-</details>
-<div class="slide">
-      <h3>Investor Benefits</h3>
-      <ul>
-        <section id="fr-launch-assets" style="padding: 30px;">
-  <h2>🚀 Lancement de PetroLink Africa</h2>
-
-  <h3>📄 Accès au Guide SOP</h3>
-  <p>Scannez le code QR ci-dessous pour télécharger le guide SOP :</p>
-  <img src="assets/sop-qr-code.png" alt="Code QR SOP PetroLink" width="200">
-  <p><a href="https://drive.google.com/file/d/1p7tB2K_7zEMzQ7nLdLkZt3kfXw8h2eUA/view?usp=sharing" target="_blank">Ou cliquez ici pour consulter le PDF</a></p>
-
-  <h3>💬 Contact WhatsApp</h3>
-  <p>Besoin d’aide ou d’une démonstration ? Discutez avec nous :</p>
-  <a href="https://wa.me/233547629484?text=Bonjour%20PetroLink%20Africa%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20votre%20plateforme." target="_blank" class="whatsapp-button">
-  <img src="assets/petrolink-banner.png" alt="PetroLink Banner" width="100%" style="margin-top: 20px; border-radius: 6px;">
-  <iframe src="https://forms.gle/7YwZx3gqJvXzZkYd9" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  <iframe src="https://docs.google.com/spreadsheets/d/1ZkYwWg9vJXkYd9bZkYwZxgqJvXzZkYd9/edit?usp=sharing" width="100%" height="600" frameborder="0">Loading…</iframe>
-📱 Envoyer un message WhatsApp
-  </a>
-  <img src="assets/petrolink-banner.png" alt="PetroLink Banner" width="100%" style="margin-top: 20px; border-radius: 6px;">
-  <h3>📊 Aperçu de la Plateforme</h3>
-  <ul>
-    <li>Pipeline RFQ entièrement automatisé</li>
-    <li>Onboarding via WhatsApp</li>
-    <li>Pas d’intervention manuelle</li>
-    <li>Scalable à travers l’Afrique</li>
-  </ul>
-</ul> <!-- End of Contributor Toolkit list -->
-<!-- 📝 Contributor Form Embed -->
-</ul> <!-- End of Contributor Toolkit list -->
-<iframe src="https://forms.gle/7YwZx3gqJvXzZkYd9" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-<!-- 🏅 Contributor Badge Tracker -->
-<iframe src="https://docs.google.com/spreadsheets/d/1ZkYwWg9vJXkYd9bZkYwZxgqJvXzZkYd9/edit?usp=sharing" width="100%" height="600" frameborder="0">Loading…</iframe>
-</section>
-        
-        <li>Early access to automation-first platform</li>
-        <li>Transparent deal flow</li>
-        <li>Zero staffing overhead</li>
-        <li>Onboarding via WhatsApp or QR code</li>
-      </ul>
-      <img src="assets/thumb.png" alt="Investor Benefits">
-    </div>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 PetroLink Africa</p>
-<p><a href="mailto:support@petrolink.africa" style="color: white;">📧 support@petrolink.africa</a></p>
-</footer>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>© 2025 PetroLink Africa<br>
+📧 <a href="mailto:support@petrolink.africa">support@petrolink.africa</a></p>
