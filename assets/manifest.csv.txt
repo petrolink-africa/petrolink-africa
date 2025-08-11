@@ -1,0 +1,4 @@
+Filename,Language,Description
+SOPFlyer_EN_2025.png,English,PetroLink SOP Flyer for English-speaking regions
+SOPFlyer_FR_2025.png,French,PetroLink SOP Flyer for Francophone outreach
+SOPFlyer_AR_2025.png,Arabic,PetroLink SOP Flyer for Arabic-speaking partners
